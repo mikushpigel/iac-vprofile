@@ -23,7 +23,7 @@ EKS_CLUSTER: vprofile-eks
 
 jobs:
   terraform:
-    name: "Apply terraform code changes"
+    name: "Apply terraform code changes...."
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -58,4 +58,4 @@ jobs:
       - name: Terraform plan status
         if: steps.plan.outcome == 'failure'
         run: exit -1
-        
+
