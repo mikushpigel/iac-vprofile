@@ -1,5 +1,5 @@
 name: "Vprofile IAC"
-om:
+on:
   push:
     branches:
       - main
